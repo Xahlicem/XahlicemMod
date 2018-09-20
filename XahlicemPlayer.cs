@@ -52,7 +52,7 @@ namespace XahlicemMod {
 
         public override void Load(TagCompound tag) { }
 
-        public override void SetupStartInventory(IList<Item> items) { }
+        public override void SetupStartInventory(IList<Item> items, bool mediumcoreDeath) { }
 
         public override void clientClone(ModPlayer clone) { }
     }
